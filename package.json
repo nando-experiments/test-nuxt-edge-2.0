@@ -1,0 +1,15 @@
+{
+  "name": "test-nuxt-edge",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nuxt dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Fernando Moreira <nandomoreira.me@gmail.com> (https://nandomoreira.me)",
+  "license": "MIT",
+  "dependencies": {
+    "nuxt": "npm:nuxt-edge"
+  }
+}
