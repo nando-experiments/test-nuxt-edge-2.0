@@ -62,3 +62,4 @@ typings/
 
 # Nuxtjs build output
 .nuxt
+dist

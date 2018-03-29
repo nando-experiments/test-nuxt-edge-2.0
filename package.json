@@ -4,7 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nuxt dev",
+    "dev": "DEBUG=nuxt:* nuxt dev",
+    "build": "nuxt build",
+    "prestart": "npm run build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Fernando Moreira <nandomoreira.me@gmail.com> (https://nandomoreira.me)",
